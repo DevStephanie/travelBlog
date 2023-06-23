@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import EmptyList from 
-import Header from 
-import NavBar from 
+import Header from './Header';
+import NavBar from './NavBar';
 import TravelList
 import { locationList } from "../../config/data"; 
 
