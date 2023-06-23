@@ -8,7 +8,7 @@ export const locationList = [
     writerName:"Allison FakeName",
     writerPic:"",
     writtenOn:"May 36th, 2045",
-    image:"./src/rename/beach1.jpeg",
+    image:'../rename/beach4.jpeg',
     },
     
     { 
@@ -20,7 +20,7 @@ export const locationList = [
         writerName:"Roberto FakeNamo",
         writerPic:"",
         writtenOn:"May 29th, 2045",
-        image:"./rename/beach2.jpeg",
+        image:"../rename/beach5.jpeg",
     },
 
     {
