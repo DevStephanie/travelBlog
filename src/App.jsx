@@ -1,8 +1,8 @@
 import React from 'react';
-import { Redirect, Route, Switch} from "react-router-dom";
+import { BrowserRouter, Route, } from "react-router-dom";
 import './App.css';
 import travelBlog from "./pages/travelBlog";
-import Main from "./pages/Main";
+import Main from "./pages/main";
 
 const MyAp =() => {
   return (
@@ -16,4 +16,4 @@ const MyAp =() => {
   );
 }
 
-
+export default App;

@@ -20,7 +20,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"May 29th, 2045",
-        image:,
+        image:"./rename/beach2.jpeg",
     },
 
     {
@@ -32,7 +32,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"May 14th, 2045",
-        image:,
+        image:"./rename/beach3.jpeg",
     }, 
 
     {
@@ -44,7 +44,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"May 19th, 2045",
-        image:,
+        image:"./rename/beach4.jpeg",
     },
 
     {
@@ -56,7 +56,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"March 40th, 2045",
-        image:,
+        image:"./rename/beach5.jpeg",
     },
 
     {
@@ -68,7 +68,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"March 10th, 2045",
-        image:,
+        image:"./rename/beach6.jpeg",
     },
 
 
@@ -81,7 +81,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"March 09th, 2045",
-        image:,
+        image:"./rename/beach7.jpeg",
     },
 
     {
@@ -93,7 +93,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"June 29th, 2045",
-        image:,
+        image:"./rename/beach8.jpeg",
     },
 
     {
@@ -105,7 +105,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"June 5th, 2045",
-        image:,
+        image:"./rename/beach9.jpeg",
     },
 
     {
@@ -117,7 +117,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"August 19th, 2045",
-        image:,
+        image:"./rename/beach10.jpeg",
     },
 
     {
@@ -129,7 +129,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"November 7th, 2045",
-        image:,
+        image:"./rename/beach11.jpeg",
     },
 
     {
@@ -141,7 +141,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"Novemnber 4th, 2045",
-        image:,
+        image:"./rename/beach12.jpeg",
     },
 
     {
@@ -153,7 +153,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"December 7th, 2045",
-        image:,
+        image:"./rename/beach13.jpeg",
     },
 
     {
@@ -165,7 +165,7 @@ export const locationList = [
         writerName:"",
         writerPic:"",
         writtenOn:"December 20th, 2045",
-        image:,
+        image:"./rename/beach14.jpeg",
     }
 
 ]
