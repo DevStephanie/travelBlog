@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import {EmptyList} from "../../components/EmptyList";
 import {traveList} from "../TravelList";
-import  {Header} from "../components/Header";
+import {travelBlog} from "../travelBlog/index";
 import { NavBar} from "../../components/NavBar";
 import '.styles.css';
 
@@ -16,8 +16,8 @@ const Main =() => {
 
  const handleSearchResults =() => { 
     const everyBlog = travelList;
-    const filteredBlogs = everyBlog.filter((travelBlog)
-     =>  travelBlog.catergory.toLowerCase().includes(searchKey.toLowerCase().trim())
+    const filteredBlogs = everyBlog.filter((travelBlog) =>  
+    travelBlog.catergory.toLowerCase().includes(searchKey.toLowerCase().trim())
     );
     settravelBlog(filteredBlogs);
 
