@@ -1,0 +1,38 @@
+.travelBlog-wrap {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .travelBlog-goBack {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #a9a9a9;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: block;
+  }
+  .travelBlog-wrap header {
+    text-align: center;
+  }
+  
+  .travelBlog-writtenON {
+    font-size: 0.8rem;
+    color: #a9a9a9;
+    font-weight: 500;
+  }
+  
+  .travelBlog-wrap image {
+    width: 100%;
+  }
+  
+  .travelBlog-secondCategory {
+    display: flex;
+    justify-content: center;
+  }
+  .travelBlog-secondCategory > div {
+    margin: 1rem;
+  }
+  .travelBlog-description {
+    padding: 1rem;
+    margin-top: 1.5rem;
+  }

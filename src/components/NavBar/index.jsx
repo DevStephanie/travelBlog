@@ -17,4 +17,4 @@ const NavBar = ({ formSubmit, handleSearchKey, clearSearch}) => (
     </div>
 );
 
-export default SearchBar; 
+export default NavBar;
