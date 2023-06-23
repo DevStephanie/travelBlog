@@ -4,17 +4,17 @@ import {  locationList} from '../../config/data';
 import Roll from './components/Roll';
 import './styles.css';
 import { Link } from 'react-router-dom';
-import EmptyList from '../../components/EmptyList';
+import EmptyList from '../../components/EmptyList/EmptyList';
 
 
-const travelBlog = () => {
+const TravelBlog = () => {
   const { id } = useParams();
   const [travelBlog, settravelBlog] = useState(null);
 
   useEffect(() => {
-    let travelBlog = locationList.find((travelBlog) => travelBlog.id === parseInt(id));
-    if (travelBlog) {
-      settravelBlog(travelBlog);
+    let TravelBlog = locationList.find((travelBlog) => travelBlog.id === parseInt(id));
+    if (TravelBlog) {
+      settravelBlog(TravelBlog);
     }
   }, []);
 
@@ -46,4 +46,4 @@ const travelBlog = () => {
   );
 };
 
-export default Blog;
+export default TravelBlog;

@@ -1,19 +1,21 @@
 import React from 'react';
-import { BrowserRouter, Route, } from "react-router-dom";
+import { BrowserRouter as Router, Route,  Routes, BrowserRouter} from "react-router-dom";
 import './App.css';
-import travelBlog from "./pages/travelBlog";
-import Main from "./pages/main";
+import travelBlog from "./pages/travelBlog/TravelBlog";
+import Main from "./pages/Main/Main";
 
-const MyAp =() => {
+const App =() => {
   return (
     <div className='container'>
-    <Switch>
+    <Router> 
+    <Routes>
       <Route path="/" exact Component={Main}/>
       <Route path="/travelBlog/: id" Component={travelBlog}/>
       <Redirect to='/'/>
-      </Switch>
+      </Routes>
+      </Router>
     </div>
   );
 }
 
-export default App;
+export default App.jsx;
