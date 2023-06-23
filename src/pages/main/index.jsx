@@ -1,11 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
+import EmptyList from 
+import Header from 
+import NavBar from 
+import TravelList
+import { locationList } from "../../config/data"; 
 
 const Main =() => { 
-    return( 
-        <div> 
-            <h1> Main Page</h1>
-        </div>
-    );
+    const[ blogs,setBlogs] =useState(locationList);
 }
 
 export default Main;
