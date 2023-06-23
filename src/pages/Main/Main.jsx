@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from "react";
-import {EmptyList} from "../../components/EmptyList";
+import {EmptyList} from "../../components/EmptyList/EmptyList";
 import {traveList} from "../TravelList";
-import {travelBlog} from "../travelBlog/index";
-import { NavBar} from "../../components/NavBar";
+import {travelBlog} from "../travelBlog/TravelBlog";
+import { NavBar} from "../../components/NavBar/NavBar";
 import '.styles.css';
 
 const Main =() => { 

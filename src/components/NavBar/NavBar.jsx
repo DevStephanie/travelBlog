@@ -1,5 +1,5 @@
 import React from "react";
-import './NavBar/styles.css';
+import './styles.css';
 
 const NavBar = ({ formSubmit, handleSearchKey, clearSearch}) => ( 
     <div className="searchBar-wrap"> 
@@ -7,7 +7,6 @@ const NavBar = ({ formSubmit, handleSearchKey, clearSearch}) => (
         <input 
             type ='text'
             placeholder="Search by Category"
-            value={value}
             onChange={handleSearchKey}/>
     
     {value && <span onClick={clearSearch}>X</span>}

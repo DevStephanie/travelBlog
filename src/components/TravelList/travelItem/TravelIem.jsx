@@ -1,9 +1,9 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import Roll from ;
+import Roll from "./components/Roll";
 import './styles.css';
 
-const travelItem = ({ 
+const TravelItem = ({ 
     blog:{
     id,
     title,
@@ -45,4 +45,4 @@ const travelItem = ({
     );
 };
 
-export default travelItem;
+export default TravelItem;
