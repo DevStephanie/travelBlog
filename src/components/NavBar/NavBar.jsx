@@ -9,7 +9,7 @@ const NavBar = ({ formSubmit, handleSearchKey, clearSearch}) => (
             placeholder="Search by Category"
             onChange={handleSearchKey}/>
     
-    {value && <span onClick={clearSearch}>X</span>}
+    { <span onClick={clearSearch}>X</span>}
     <button> GO</button>
     </form>
     
