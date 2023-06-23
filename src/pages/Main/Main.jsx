@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from "react";
 import {EmptyList} from "../../components/EmptyList/EmptyList";
-import {traveList} from "../TravelList";
-import {travelBlog} from "../travelBlog/TravelBlog";
+import {TravelList} from "../TravelList";
+import {TravelBlog} from "../TravelBlog/TravelBlog"
 import { NavBar} from "../../components/NavBar/NavBar";
 import '.styles.css';
 
 const Main =() => { 
-    const[travelBlog,settravelBlog] = useState(null);
+    const[TravelBlog,setTravelBlog] = useState(null);
     const [searchKey, setSearchKey] = useState('');
 
  const handleNavBar = (e) => { 
@@ -15,16 +15,16 @@ const Main =() => {
  };
 
  const handleSearchResults =() => { 
-    const everyBlog = travelList;
-    const filteredBlogs = everyBlog.filter((travelBlog) =>  
-    travelBlog.catergory.toLowerCase().includes(searchKey.toLowerCase().trim())
+    const everyBlog = TravelList;
+    const filteredBlogs = everyBlog.filter((TravelBlog) =>  
+    TravelBlog.catergory.toLowerCase().includes(searchKey.toLowerCase().trim())
     );
-    settravelBlog(filteredBlogs);
+    setTravelBlog(filteredBlogs);
 
  };
 
  const handleClearSearch=()=> {
-    settravelBlog(travelList);
+    setTravelBlog(TravelList);
     setSearchKey( '');
  };
 
