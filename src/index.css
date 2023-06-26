@@ -1,5 +1,5 @@
 body {
-  background-color: bisque;
+  background-color: rgb(250, 236, 219);
 }
 
 code {
@@ -11,4 +11,10 @@ div {
   padding-right: 40px;
   padding-bottom: 60px;
   padding-left: 40px;
+}
+
+div
+{ 
+  width: 400px;
+  padding: 80px;
 }
